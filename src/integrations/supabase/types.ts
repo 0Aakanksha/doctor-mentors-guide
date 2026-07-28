@@ -14,7 +14,51 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      student_enquiries: {
+        Row: {
+          category: string | null
+          city: string | null
+          created_at: string
+          domicile_state: string | null
+          email: string
+          full_name: string
+          id: string
+          message: string | null
+          neet_score: string | null
+          phone: string
+          preferred_stream: string | null
+          state: string | null
+        }
+        Insert: {
+          category?: string | null
+          city?: string | null
+          created_at?: string
+          domicile_state?: string | null
+          email: string
+          full_name: string
+          id?: string
+          message?: string | null
+          neet_score?: string | null
+          phone: string
+          preferred_stream?: string | null
+          state?: string | null
+        }
+        Update: {
+          category?: string | null
+          city?: string | null
+          created_at?: string
+          domicile_state?: string | null
+          email?: string
+          full_name?: string
+          id?: string
+          message?: string | null
+          neet_score?: string | null
+          phone?: string
+          preferred_stream?: string | null
+          state?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
