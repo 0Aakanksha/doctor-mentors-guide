@@ -6,7 +6,8 @@ import { toast } from "sonner";
 
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
-import { enquirySchema, submitEnquiry, type EnquiryInput } from "@/lib/enquiries.functions";
+import { enquirySchema, type EnquiryInput } from "@/lib/enquiry-schema";
+import { submitEnquiry } from "@/lib/enquiries.functions";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -92,7 +93,7 @@ function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact us"
-        title="Tell us your score. We&rsquo;ll map your options."
+        title="Tell us your score. We’ll map your options."
         subtitle="Fill the form below and a doctor mentor will call you with college possibilities, plan details and package pricing tailored to your profile."
       />
 
