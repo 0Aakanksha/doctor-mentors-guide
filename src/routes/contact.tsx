@@ -242,6 +242,14 @@ function ContactPage() {
                 <a href="mailto:neetika.info@gmail.com" className="flex items-center gap-2 hover:text-rose">
                   <Mail className="h-4 w-4" aria-hidden="true" /> neetika.info@gmail.com
                 </a>
+                <a
+                  href="https://www.instagram.com/neetika.org_?igsh=bHF6ejVydGhxOGk4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-rose"
+                >
+                  <Instagram className="h-4 w-4" aria-hidden="true" /> @neetika.org_
+                </a>
               </div>
             </div>
 
