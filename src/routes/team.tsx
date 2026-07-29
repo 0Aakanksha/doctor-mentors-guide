@@ -2,6 +2,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
+import spPhoto from "@/assets/team/sp.png.asset.json";
+import ssPhoto from "@/assets/team/ss.png.asset.json";
+import srPhoto from "@/assets/team/sr.png.asset.json";
+import rpPhoto from "@/assets/team/rp.png.asset.json";
+import prPhoto from "@/assets/team/pr.png.asset.json";
+import hsPhoto from "@/assets/team/hs.png.asset.json";
+
 
 export const Route = createFileRoute("/team")({
   head: () => ({
@@ -30,41 +37,39 @@ const TEAM = [
     name: "Dr. Shantanu Pardhi",
     role: "Founder & Lead Counselling Mentor",
     focus: "All-India quota strategy, MBBS choice filling",
+    photo: spPhoto.url,
   },
   {
     name: "Dr. Sheetal Singhal",
     role: "Senior Admission Advisor",
     focus: "State quota, domicile and reservation guidance",
+    photo: ssPhoto.url,
   },
   {
     name: "Dr. Saloni Rathi",
     role: "Counselling Mentor",
     focus: "BDS pathways and college comparison",
+    photo: srPhoto.url,
   },
   {
     name: "Dr. Rishabh Patle",
     role: "Counselling Mentor",
     focus: "Rank analysis and cut-off trend modelling",
+    photo: rpPhoto.url,
   },
   {
     name: "Dr. Priya Rahangdale",
     role: "Student Mentor",
     focus: "BHMS & BAMS career counselling",
+    photo: prPhoto.url,
   },
   {
     name: "Dr. Harsh Shivhare",
     role: "Documentation & Process Lead",
     focus: "Verification, deadlines and reporting support",
+    photo: hsPhoto.url,
   },
 ];
-
-function initials(name: string) {
-  return name
-    .replace("Dr. ", "")
-    .split(" ")
-    .map((part) => part[0])
-    .join("");
-}
 
 function TeamPage() {
   return (
@@ -80,9 +85,12 @@ function TeamPage() {
           {TEAM.map((member, i) => (
             <Reveal key={member.name} delay={i * 70}>
               <article className="group h-full rounded-3xl border border-border/60 bg-card p-6 text-center shadow-soft transition-transform hover:-translate-y-1">
-                <span className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-mint/70 font-display text-2xl font-bold text-brand ring-4 ring-background transition-colors group-hover:bg-rose/20">
-                  {initials(member.name)}
-                </span>
+                <img
+                  src={member.photo}
+                  alt={`${member.name}, ${member.role} at NEETika`}
+                  loading="lazy"
+                  className="mx-auto h-28 w-28 rounded-full object-cover object-top ring-4 ring-mint/70 transition-all group-hover:ring-rose/30"
+                />
                 <h2 className="mt-5 font-display text-lg font-bold text-brand">
                   {member.name}
                 </h2>
@@ -93,6 +101,7 @@ function TeamPage() {
           ))}
         </div>
       </section>
+
 
       <section className="bg-band-wash py-16">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
