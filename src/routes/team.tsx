@@ -1,13 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import { PageHero } from "@/components/site/PageHero";
-import { Reveal } from "@/components/site/Reveal";
-import spPhoto from "@/assets/team/sp.png.asset.json";
-import ssPhoto from "@/assets/team/ss.png.asset.json";
-import srPhoto from "@/assets/team/sr.png.asset.json";
-import rpPhoto from "@/assets/team/rp.png.asset.json";
-import prPhoto from "@/assets/team/pr.png.asset.json";
-import hsPhoto from "@/assets/team/hs.png.asset.json";
+
 
 
 export const Route = createFileRoute("/team")({
@@ -37,37 +30,37 @@ const TEAM = [
     name: "Dr. Shantanu Pardhi",
     role: "Founder & Lead Counselling Mentor",
     focus: "All-India quota strategy, MBBS choice filling",
-    photo: spPhoto.url,
+    photo: "/images/d1.png",
   },
   {
     name: "Dr. Sheetal Singhal",
     role: "Senior Admission Advisor",
     focus: "State quota, domicile and reservation guidance",
-    photo: ssPhoto.url,
+    photo: "/images/d2.png",
   },
   {
     name: "Dr. Saloni Rathi",
     role: "Counselling Mentor",
     focus: "BDS pathways and college comparison",
-    photo: srPhoto.url,
+    photo: "/images/d3.png",
   },
   {
     name: "Dr. Rishabh Patle",
     role: "Counselling Mentor",
     focus: "Rank analysis and cut-off trend modelling",
-    photo: rpPhoto.url,
+    photo: "/images/d4.png",
   },
   {
     name: "Dr. Priya Rahangdale",
     role: "Student Mentor",
     focus: "BHMS & BAMS career counselling",
-    photo: prPhoto.url,
+    photo: "/images/d5.png",
   },
   {
     name: "Dr. Harsh Shivhare",
     role: "Documentation & Process Lead",
     focus: "Verification, deadlines and reporting support",
-    photo: hsPhoto.url,
+    photo: "/images/d6.png",
   },
 ];
 
