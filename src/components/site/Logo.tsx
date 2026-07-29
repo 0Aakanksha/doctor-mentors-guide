@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/neetkalogo.png.asset.json";
+
 
 type LogoProps = {
   className?: string;
@@ -9,7 +9,7 @@ type LogoProps = {
 export function LogoImage({ className = "h-10 w-auto" }: { className?: string }) {
   return (
     <img
-      src={logoAsset.url}
+      src= "/images/neetkalogo.png"
       alt="NEETika — from the doctors to the future doctors"
       className={className}
       width={480}
