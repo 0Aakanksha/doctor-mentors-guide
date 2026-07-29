@@ -10,7 +10,7 @@ import {
   Users,
 } from "lucide-react";
 
-import { LogoMark, Wordmark } from "@/components/site/Logo";
+import { LogoImage } from "@/components/site/Logo";
 import { Reveal } from "@/components/site/Reveal";
 
 export const Route = createFileRoute("/")({
