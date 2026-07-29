@@ -10,7 +10,7 @@ import {
   Users,
 } from "lucide-react";
 
-import { LogoMark, Wordmark } from "@/components/site/Logo";
+import { LogoImage } from "@/components/site/Logo";
 import { Reveal } from "@/components/site/Reveal";
 
 export const Route = createFileRoute("/")({
@@ -82,19 +82,19 @@ function HomePage() {
         <div className="pointer-events-none absolute -left-20 bottom-0 h-72 w-72 rounded-full bg-sage/30 blur-3xl" />
 
         <div className="relative mx-auto max-w-5xl px-4 py-20 text-center sm:px-6 sm:py-28">
-          <div className="relative mx-auto mb-6 flex h-24 w-24 items-center justify-center">
-            <span className="animate-ring absolute inset-0 rounded-full border-2 border-rose/40" />
-            <span className="animate-float absolute inset-0 flex items-center justify-center">
-              <LogoMark className="h-20 w-20 text-brand" animated />
+          <div className="relative mx-auto mb-6 flex items-center justify-center">
+            <span className="animate-float">
+              <LogoImage className="h-36 w-auto sm:h-44" />
             </span>
           </div>
 
           <h1 className="animate-rise">
-            <Wordmark className="block text-5xl sm:text-7xl" />
-            <span className="mt-4 block text-sm font-semibold uppercase tracking-[0.3em] text-brand/70 sm:text-base">
+            <span className="sr-only">NEETika</span>
+            <span className="mt-2 block text-sm font-semibold uppercase tracking-[0.3em] text-brand/70 sm:text-base">
               From the doctors to the future doctors
             </span>
           </h1>
+
 
           <p
             className="animate-rise mt-3 text-xs uppercase tracking-[0.25em] text-rose"
