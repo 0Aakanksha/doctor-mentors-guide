@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { CheckCircle2, Mail, Phone } from "lucide-react";
+import { CheckCircle2, Instagram, Mail, Phone } from "lucide-react";
 import { toast } from "sonner";
 
 import { PageHero } from "@/components/site/PageHero";
