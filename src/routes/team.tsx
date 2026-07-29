@@ -2,6 +2,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
+import spPhoto from "@/assets/team/sp.png.asset.json";
+import ssPhoto from "@/assets/team/ss.png.asset.json";
+import srPhoto from "@/assets/team/sr.png.asset.json";
+import rpPhoto from "@/assets/team/rp.png.asset.json";
+import prPhoto from "@/assets/team/pr.png.asset.json";
+import hsPhoto from "@/assets/team/hs.png.asset.json";
+
 
 export const Route = createFileRoute("/team")({
   head: () => ({
