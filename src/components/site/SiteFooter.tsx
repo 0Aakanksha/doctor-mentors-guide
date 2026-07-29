@@ -55,6 +55,16 @@ export function SiteFooter() {
                 <Mail className="h-4 w-4" aria-hidden="true" /> neetika.info@gmail.com
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.instagram.com/neetika.org_?igsh=bHF6ejVydGhxOGk4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-rose"
+              >
+                <Instagram className="h-4 w-4" aria-hidden="true" /> @neetika.org_
+              </a>
+            </li>
           </ul>
           <p className="mt-4 text-xs text-muted-foreground">
             MBBS · BDS · BHMS · BAMS · AYUSH counselling support
