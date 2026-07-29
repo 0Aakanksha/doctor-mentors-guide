@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/neetika-logo.png.asset.json";
+import logoAsset from "@/assets/neetkalogo.png.asset.json";
 
 type LogoProps = {
   className?: string;
