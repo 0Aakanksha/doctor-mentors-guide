@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone } from "lucide-react";
+import { Instagram, Mail, Phone } from "lucide-react";
 
 import { LogoLockup } from "./Logo";
 import { NAV_LINKS } from "./SiteHeader";
