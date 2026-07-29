@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone } from "lucide-react";
+import { Instagram, Mail, Phone } from "lucide-react";
 
 import { LogoLockup } from "./Logo";
 import { NAV_LINKS } from "./SiteHeader";
@@ -49,10 +49,20 @@ export function SiteFooter() {
             </li>
             <li>
               <a
-                href="mailto:neetika.org@gmail.com"
+                href="mailto:neetika.info@gmail.com"
                 className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-rose"
               >
-                <Mail className="h-4 w-4" aria-hidden="true" /> neetika.org@gmail.com
+                <Mail className="h-4 w-4" aria-hidden="true" /> neetika.info@gmail.com
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/neetika.org_?igsh=bHF6ejVydGhxOGk4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-rose"
+              >
+                <Instagram className="h-4 w-4" aria-hidden="true" /> @neetika.org_
               </a>
             </li>
           </ul>

@@ -271,7 +271,7 @@ function HomePage() {
                 <Phone className="h-4 w-4" aria-hidden="true" /> 94798 76000
               </a>
               <a
-                href="mailto:neetika.org@gmail.com"
+                href="mailto:neetika.info@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full border border-brand/25 px-6 py-3 text-sm font-semibold text-brand"
               >
                 <Mail className="h-4 w-4" aria-hidden="true" /> Email us
