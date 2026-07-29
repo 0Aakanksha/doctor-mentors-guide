@@ -49,10 +49,10 @@ export function SiteFooter() {
             </li>
             <li>
               <a
-                href="mailto:neetika.org@gmail.com"
+                href="mailto:neetika.info@gmail.com"
                 className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-rose"
               >
-                <Mail className="h-4 w-4" aria-hidden="true" /> neetika.org@gmail.com
+                <Mail className="h-4 w-4" aria-hidden="true" /> neetika.info@gmail.com
               </a>
             </li>
           </ul>

@@ -110,7 +110,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           slogan: "From the doctors to the future doctors",
           description:
             "Doctor-led NEET counselling and medical admission guidance for MBBS, BDS, BHMS and BAMS aspirants.",
-          email: "neetika.org@gmail.com",
+          email: "neetika.info@gmail.com",
           telephone: "+91-9479876000",
         }),
       },

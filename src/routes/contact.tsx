@@ -239,8 +239,8 @@ function ContactPage() {
                 <a href="tel:+919479876000" className="flex items-center gap-2 hover:text-rose">
                   <Phone className="h-4 w-4" aria-hidden="true" /> 94798 76000
                 </a>
-                <a href="mailto:neetika.org@gmail.com" className="flex items-center gap-2 hover:text-rose">
-                  <Mail className="h-4 w-4" aria-hidden="true" /> neetika.org@gmail.com
+                <a href="mailto:neetika.info@gmail.com" className="flex items-center gap-2 hover:text-rose">
+                  <Mail className="h-4 w-4" aria-hidden="true" /> neetika.info@gmail.com
                 </a>
               </div>
             </div>
