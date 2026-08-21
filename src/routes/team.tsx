@@ -37,11 +37,18 @@ const TEAM = [
     photo: "/images/d1.png",
   },
   {
+    name: "Dr. Ram Sahu",
+    role: "Lead Counsellor",
+    focus: "MBBS, MD — Central Institute expert",
+    photo: rsPhoto.url,
+  },
+  {
     name: "Dr. Sheetal Singhal",
     role: "Senior Admission Advisor",
     focus: "State quota, domicile and reservation guidance",
     photo: "/images/d2.png",
   },
+
   {
     name: "Dr. Saloni Rathi",
     role: "Counselling Mentor",
