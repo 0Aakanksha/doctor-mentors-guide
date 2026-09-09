@@ -1,7 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
-import tekamPhoto from "@/assets/team/tekam.png.asset.json";
+
+
+
+
 
 
 
@@ -49,7 +52,7 @@ const TEAM = [
     name: "Dr. Shantanu Tekam",
     role: "Counsellor",
     focus: "State-specific strategy specialist",
-    photo: tekamPhoto.url,
+    photo: "/images/dr.jpeg",
   },
   {
     name: "Dr. Sheetal Singhal",
