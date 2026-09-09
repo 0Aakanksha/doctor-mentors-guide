@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
+import tekamPhoto from "@/assets/team/tekam.png.asset.json";
+
 
 
 
@@ -14,7 +16,7 @@ export const Route = createFileRoute("/team")({
       {
         name: "description",
         content:
-          "Meet the NEETika mentor panel: Dr. Shantanu Pardhi, Dr. Ram Sahu, Dr. Sheetal Singhal, Dr. Saloni Rathi, Dr. Rishabh Patle, Dr. Priya Rahangdale and Dr. Harsh Shivhare.",
+          "Meet the NEETika mentor panel: Dr. Shantanu Pardhi, Dr. Ram Sahu, Dr. Shantanu Tekam, Dr. Sheetal Singhal, Dr. Saloni Rathi, Dr. Rishabh Patle, Dr. Priya Rahangdale and Dr. Harsh Shivhare.",
       },
 
       { property: "og:title", content: "Our Team of Experts — NEETika" },
