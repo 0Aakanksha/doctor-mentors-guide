@@ -46,6 +46,12 @@ const TEAM = [
     photo: "/images/nt.jpeg",
   },
   {
+    name: "Dr. Shantanu Tekam",
+    role: "Counsellor",
+    focus: "State-specific strategy specialist",
+    photo: tekamPhoto.url,
+  },
+  {
     name: "Dr. Sheetal Singhal",
     role: "Senior Admission Advisor",
     focus: "State quota, domicile and reservation guidance",
