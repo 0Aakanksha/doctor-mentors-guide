@@ -265,10 +265,10 @@ function HomePage() {
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
               <a
-                href="tel:+919479876000"
+                href="tel:+917649004005"
                 className="inline-flex items-center gap-2 rounded-full border border-brand/25 px-6 py-3 text-sm font-semibold text-brand"
               >
-                <Phone className="h-4 w-4" aria-hidden="true" /> 94798 76000
+                <Phone className="h-4 w-4" aria-hidden="true" /> 76490 04005
               </a>
               <a
                 href="mailto:neetika.org@gmail.com"

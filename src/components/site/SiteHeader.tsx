@@ -38,11 +38,11 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <a
-            href="tel:+919479876000"
+            href="tel:+917649004005"
             className="hidden items-center gap-2 rounded-full bg-rose px-4 py-2 text-sm font-semibold text-rose-foreground shadow-soft transition-transform hover:-translate-y-0.5 sm:inline-flex"
           >
             <Phone className="h-4 w-4" aria-hidden="true" />
-            94798 76000
+            76490 04005
           </a>
           <button
             type="button"
@@ -74,10 +74,10 @@ export function SiteHeader() {
             ))}
             <li>
               <a
-                href="tel:+919479876000"
+                href="tel:+917649004005"
                 className="mt-2 block rounded-xl bg-rose px-4 py-3 text-center text-sm font-semibold text-rose-foreground"
               >
-                Call 94798 76000
+                Call 76490 04005
               </a>
             </li>
           </ul>

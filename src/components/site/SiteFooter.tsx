@@ -41,10 +41,10 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-3 text-sm">
             <li>
               <a
-                href="tel:+919479876000"
+                href="tel:+917649004005"
                 className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-rose"
               >
-                <Phone className="h-4 w-4" aria-hidden="true" /> 94798 76000
+                <Phone className="h-4 w-4" aria-hidden="true" /> 76490 04005
               </a>
             </li>
             <li>

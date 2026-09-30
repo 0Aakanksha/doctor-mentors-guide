@@ -1,7 +1,7 @@
 export function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/919479876000?text=Hi%20NEETika%2C%20I%20need%20guidance%20with%20NEET%20counselling."
+      href="https://wa.me/917649004005?text=Hi%20NEETika%2C%20I%20need%20guidance%20with%20NEET%20counselling."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with NEETika on WhatsApp"

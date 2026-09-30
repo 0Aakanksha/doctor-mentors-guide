@@ -80,7 +80,7 @@ function ContactPage() {
       setValues(EMPTY);
       toast.success("Thank you! A NEETika mentor will reach out shortly.");
     } catch {
-      toast.error("Something went wrong. Please call us on 94798 76000.");
+      toast.error("Something went wrong. Please call us on 76490 04005.");
     } finally {
       setSubmitting(false);
     }
@@ -236,8 +236,8 @@ function ContactPage() {
                 actually fits your rank and budget.
               </p>
               <div className="mt-5 space-y-3 text-sm font-semibold">
-                <a href="tel:+919479876000" className="flex items-center gap-2 hover:text-rose">
-                  <Phone className="h-4 w-4" aria-hidden="true" /> 94798 76000
+                <a href="tel:+917649004005" className="flex items-center gap-2 hover:text-rose">
+                  <Phone className="h-4 w-4" aria-hidden="true" /> 76490 04005
                 </a>
                 <a href="mailto:neetika.org@gmail.com" className="flex items-center gap-2 hover:text-rose">
                   <Mail className="h-4 w-4" aria-hidden="true" /> neetika.org@gmail.com
